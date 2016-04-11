@@ -23,9 +23,9 @@ public class MyApi {
     @RequestMapping(path = "/api/durations", method = RequestMethod.GET, produces = "application/json")
     public @ResponseBody Durations getDurations() {
 
-        //Durations durations = this.durationBusiness.getDurations();
+        Durations durations = this.durationBusiness.getDurations();
         //Durations durations = this.durationBusiness.getDurationsWithHystrixCommand();
-        Durations durations = this.durationBusiness.getDurationsWithHystrixAnnotations();
+        //Durations durations = this.durationBusiness.getDurationsWithHystrixAnnotations();
 
         return durations;
 
