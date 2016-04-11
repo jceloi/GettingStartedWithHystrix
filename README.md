@@ -52,6 +52,7 @@ Idem PartnerApi1 , surl e port 8091, avec en plus la possibilité de provoquer d
 
 ```
 error.mode=false
+```
 
 # Gatling
 
